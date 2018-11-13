@@ -9,6 +9,10 @@ public class node {
     List<node> pointers;
     node rightBrother = null;
     int children;
+    int minimkey;
+
+    int level;
+    int levelNodeCount;
 
     node(List keys,List pointers,int children){
         this.keys = keys;
