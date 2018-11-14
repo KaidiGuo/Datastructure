@@ -23,10 +23,15 @@ public class node {
 
     }
     public void printNode(){
-        System.out.print("The keys of current node are: ");
+//        System.out.print("The keys of this node are: ");
+        System.out.print("[");
+
         for (Object key: keys){
             System.out.print(key+" ");
         }
+        System.out.print("]");
+        System.out.println(" ");
+
     }
 
 
